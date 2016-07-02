@@ -29,11 +29,11 @@ mongo.connect(url, function(err, db) {
 
   // Use the routes specified in the routes file
   app.use(require('./routes'));
-
+  app.set( 'port', ( process.env.PORT || 5000 ));
   app.set('views', path.join(__dirname, '/views'));
   app.set('view engine', 'ejs');
   // Start node server
-  app.listen(3000, function() {
-    console.log('Node server is running on port 3000');
+  app.listen(app.get('port'), function() {
+    console.log('Node server is running on port' + app.get('port'));
   });
 });
