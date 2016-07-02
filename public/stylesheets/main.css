@@ -1,0 +1,21 @@
+input {
+  margin-top: 10px;
+}
+
+th, td {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+th {
+  text-align: center;
+}
+
+#username, #password, #update-password {
+  width: 20em;
+}
+
+.admin-table {
+  margin: 0 auto;
+  max-width: 700px;
+}
