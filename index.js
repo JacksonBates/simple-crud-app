@@ -5,7 +5,10 @@ var bodyParser = require('body-parser');
 
 var mongo = mongodb.MongoClient;
 var app = express();
-var url = 'mongodb://localhost:27017/test';
+var mongoUserPsw = process.env.MONGO_USER_PSW;
+var url = 'mongodb://' +
+ mongoUserPsw +
+ '@ds011735.mlab.com:11735/simple-crud-app';
 
 mongo.connect(url, function(err, db) {
   if (err) {
