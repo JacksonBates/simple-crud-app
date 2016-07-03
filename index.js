@@ -34,6 +34,6 @@ mongo.connect(url, function(err, db) {
   app.set('view engine', 'ejs');
   // Start node server
   app.listen(app.get('port'), function() {
-    console.log('Node server is running on port' + app.get('port'));
+    console.log('Node server is running on port ' + app.get('port'));
   });
 });
