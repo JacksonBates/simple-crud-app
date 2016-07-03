@@ -6,8 +6,15 @@
   "scripts": {
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonBates/simple-crud-app.git"
+  },
   "author": "Jackson Bates",
   "license": "MIT",
+  "bugs": {
+    "https://github.com/JacksonBates/simple-crud-app/issues"
+  },
   "dependencies": {
     "body-parser": "^1.15.2",
     "ejs": "^2.4.2",
