@@ -13,7 +13,7 @@
   "author": "Jackson Bates",
   "license": "MIT",
   "bugs": {
-    "https://github.com/JacksonBates/simple-crud-app/issues"
+    "url": "https://github.com/JacksonBates/simple-crud-app/issues"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
